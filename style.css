@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(159, 212, 255);
+    border: 1px green;
+}
+
+nav{
+    float: left;
+    width: 20%;
+
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(159, 212, 255);
+    border: 1px green;
+    margin-top: 0px;
+    padding: 0 20px;
+
+
+}
+nav ul li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    background-color: aquamarine;
+    color: white; 
+    
+}
+article{
+    text-align: center;
+    width: 80%;
+    background-color: aliceblue;
+    border: 1px solid green;
+    padding: 0 20px;
+    float: right;
+
+}
+footer{
+    text-align: center;
+    float: right;
+    width: 80%;
+}
+
+.satu{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+.dua{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color :brown;
+}
+
+    
